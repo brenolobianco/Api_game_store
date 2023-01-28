@@ -16,6 +16,9 @@ class Games {
   name: string;
 
   @Column()
+  img: string;
+
+  @Column()
   console: string;
 
   @Column()

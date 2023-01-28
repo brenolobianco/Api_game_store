@@ -24,6 +24,10 @@ __decorate([
 __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
+], Games.prototype, "img", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
 ], Games.prototype, "console", void 0);
 __decorate([
     (0, typeorm_1.Column)(),
