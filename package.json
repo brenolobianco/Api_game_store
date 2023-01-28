@@ -24,6 +24,8 @@
   },
   "scripts": {
     "typeorm": "typeorm-ts-node-commonjs",
-    "dev": "nodemon ./src/server.ts"
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   }
 }
